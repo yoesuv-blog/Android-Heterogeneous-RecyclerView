@@ -1,7 +1,8 @@
-package com.yoesuv.myheterogeneous
+package com.yoesuv.myheterogeneous.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.yoesuv.myheterogeneous.R
 
 class MainActivity : AppCompatActivity() {
 
