@@ -3,6 +3,7 @@ package com.yoesuv.myheterogeneous.views
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.yoesuv.myheterogeneous.R
 import com.yoesuv.myheterogeneous.databinding.ActivityMainBinding
@@ -18,5 +19,10 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         binding.main = viewModel
+
+        viewModel.setupData()
+        viewModel.listHeterogeneous.observe(this, Observer {
+
+        })
     }
 }
