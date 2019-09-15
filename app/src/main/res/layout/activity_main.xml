@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".views.MainActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-        <androidx.recyclerview.widget.RecyclerView
+        <data>
+                <variable
+                    name="main"
+                    type="com.yoesuv.myheterogeneous.viewmodels.MainViewModel" />
+        </data>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:itemCount="10"
-            tools:listitem="@layout/item_image"/>
+            tools:context=".views.MainActivity">
 
-</RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:itemCount="10"
+                    tools:listitem="@layout/item_image"/>
+
+        </RelativeLayout>
+
+</layout>
