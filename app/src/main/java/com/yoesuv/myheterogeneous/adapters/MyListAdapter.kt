@@ -1,7 +1,6 @@
 package com.yoesuv.myheterogeneous.adapters
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
@@ -12,6 +11,7 @@ import com.yoesuv.myheterogeneous.databinding.ItemImageBinding
 import com.yoesuv.myheterogeneous.databinding.ItemTextBinding
 import com.yoesuv.myheterogeneous.models.ImageModel
 import com.yoesuv.myheterogeneous.models.TextModel
+import com.yoesuv.myheterogeneous.viewmodels.ItemImageViewModel
 import com.yoesuv.myheterogeneous.viewmodels.ItemTextViewModel
 
 class MyListAdapter: ListAdapter<Any, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
@@ -22,7 +22,7 @@ class MyListAdapter: ListAdapter<Any, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
         val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Any>() {
             override fun areContentsTheSame(oldItem: Any, newItem: Any): Boolean {
                 if (oldItem is ImageModel && newItem is ImageModel) {
-                    return oldItem.caption == newItem.caption
+                    return oldItem.name == newItem.name
                 } else if (oldItem is TextModel && newItem is TextModel) {
                     return oldItem.fullName == newItem.fullName
                 } else {
@@ -64,9 +64,10 @@ class MyListAdapter: ListAdapter<Any, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
         }
     }
 
-    class ItemImageViewHolder(binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root) {
+    class ItemImageViewHolder(private val binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindData(imageModel: ImageModel) {
-
+            binding.itemImage = ItemImageViewModel(imageModel)
+            binding.executePendingBindings()
         }
     }
 

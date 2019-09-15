@@ -1,6 +1,6 @@
 package com.yoesuv.myheterogeneous.models
 
 data class ImageModel(
-    val caption: String?,
+    val name: String?,
     val imageUrl: String?
 )
