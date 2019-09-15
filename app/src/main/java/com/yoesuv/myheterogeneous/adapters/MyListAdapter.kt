@@ -78,5 +78,4 @@ class MyListAdapter: ListAdapter<Any, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
         }
     }
 
-
 }

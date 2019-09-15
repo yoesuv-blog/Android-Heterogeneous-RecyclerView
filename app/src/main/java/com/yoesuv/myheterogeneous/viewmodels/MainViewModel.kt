@@ -19,6 +19,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         listData.add(ImageModel("IU","https://www.allkpop.com/upload/2018/10/af_org/27105129/IU.jpg"))
         listData.add(TextModel("Leonel Messi","Atlet Sepakbola"))
         listData.add(ImageModel("Pevita Pearce","https://1.bp.blogspot.com/-dtfgEusKDyg/V8VGxwdHx_I/AAAAAAAALUQ/DOd04r2NBj4kza6SslGpihanSqmnUUKNwCLcB/s1600/pevita%2Bpearce.jpg"))
+        listData.add(ImageModel("Isyana Sarasvati","https://img.jakpost.net/c/2017/10/05/2017_10_05_33640_1507175962._large.jpg"))
+        listData.add(TextModel("Didi Kempot","Penyanyi Legend"))
 
         listHeterogeneous.postValue(listData)
     }
