@@ -2,6 +2,7 @@
 
 how to show data in recyclerview with various item. not just single item only.
 
+source code untuk post [Android Heterogeneous RecyclerView](https://yoesuv.blogspot.com/2019/09/android-heterogeneous-recyclerview.html)
 download APK file [here](https://drive.google.com/file/d/15Wq1RW6SHnrOOB2OzPWJjA67yZ429vjg/view?usp=sharing)
 
 #### Screenshot ####
