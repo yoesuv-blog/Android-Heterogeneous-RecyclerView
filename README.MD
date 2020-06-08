@@ -2,11 +2,11 @@
 
 how to show data in recyclerview with various item. not just single item only.
 
-source code untuk post [Android Heterogeneous RecyclerView](https://yoesuv.blogspot.com/2019/09/android-heterogeneous-recyclerview.html)
-download APK file [here](https://drive.google.com/file/d/15Wq1RW6SHnrOOB2OzPWJjA67yZ429vjg/view?usp=sharing)
+source code for post [Android Heterogeneous RecyclerView](https://yoesuv.blogspot.com/2019/09/android-heterogeneous-recyclerview.html)  
+download APK file [here](https://drive.google.com/file/d/1XFzA9F1UEIDmiB9qow-Nq0I-0jZCt4ep/view?usp=sharing)
 
 #### Screenshot ####
-| ![](https://lh3.googleusercontent.com/q3GDNHQLtoGGDwW8UTLQiF435Lhi3K5w8Pos2LKY0tC3RprcXgBHB1Aa3BGMhEivw-U-kb3-C_qzaRdBjRv7wQYyId2fwK5dyYXlF0hI6kSa6alqHWzNN89w3g97VqeiNOlnzcMCfdErGI_orOilzyxKdiyzHBvE5i5VJsR3OHkJOjE7L65Bu81dbfwCYNCwhxfjPWyM4Sw3Hivc2LO-uIPmckWpFDvceCE0RYDepcJ8kcDkx7MUYNR8SibovhDVpm6F8_bPesfizLoBBKH79XzajM1pmGiggUhxrSH8s0Y6UAmLJy53-e23gzhQm08VtxWvq_r2jxlX3mrUPo-JGIKrJpn3BeC72IU4gA92SzIOGrX4oBtj2A3uQJxAwLNpQscoGw906jrXzGytLIwCFcj7s4BwzlqH26k5V0ZJdZ2wIybMHv7HKabA6iunObKLAwstAUGwLoCUSBcC_lleL-KXSR5dslSxSeR8GUadNFcdG_qzHGg3X90P_3pL86-KCE4FeAQlPXwmSmT65Oub7WPaGvsuPQQE3eLh_eF0Ht1tpyoYoN3I5K4up8C6RbargWNujuWprgtwotO3kUvPPD1IvikFDf3DuEeGtdUjmk7W54Jyk5vcKWruJ063h5sjO6gTmCRra91JOPxZnMnoq3_scHP7d68cQX7R68zKcYazcQjKsbMkAA=w474-h947-no) | ![](https://lh3.googleusercontent.com/Br2Ba0H8_P9R6QZsQPUxB6b2JQxi4SSJWkZtESGhef_1t0hPOWgJRxqQwqB2L1O0dWwjHWX9HXZ8ZkvlPs09nh_mdpsIw9JDxOEBvfBQk_gh5GsCefEG7ENVA-kpWv9y7kDJRC2W62PbKPqRgPycZo1W5-ijEAONAQ8XNJ5wFfk8BrbJRSnQhru3M0_zeJNIfLyrcYS8yAgjCncYmYc3Zyv6rj6TwT6PupUzlCU3WamLOgL5IyIk71BMZJwCDOXMN9B6npzBB1HxioJVTA6K22ni_EyUJ9EpG73JBD8a3FtraYDTW2_0lYwRBWcL1mJ-Muqu6yOjd0S5WDQNlNhcucW8-YyL8NzFHU5-VpC1co1VNzEZOwk0zzMvPYE6emZRwrtL2Ty-pMnZ-rJ36uJzNlMQPu8n6Nj3HvHsru8MEQjeqsIC-cp1CKVH07exhCsi5HsDNn0X51k50CWzxALtgT8_QsRPZif1xOMaY8IsQ_pcL9oXX2xOzzKa2cCXc-ynJNLjtZAuQ4KihhRfpRwHDCDONl8r_9ec5wj2VqU2ib7PolkrV9goDfTHKCL5HeLDIc8opd3FB8ls5J96HBvSYBA24wrSHaHjMbLFlOI5Af9LNXtlV2rBlkJPi0N-5ON3RdRwu-q5kcsAG9KjAXy_k2BDFsJ9aIZMbDqKhFwcnFjGUDv2pQB6kQ=w474-h947-no) |
+| ![](https://i.imgur.com/G8zwVJx.jpg) | ![](https://i.imgur.com/2nYubMi.jpg) |
 | :---: | :---: |
 
 #### List Libraries ####
